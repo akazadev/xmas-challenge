@@ -9,13 +9,19 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@fontsource/mountains-of-christmas": "^5.1.0",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "lucide-react": "^0.469.0",
     "next": "15.1.2",
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "react-icons": "^5.4.0",
     "react-snow-effect": "^1.2.0",
     "react-snowfall": "^2.2.0",
-    "react-snowstorm": "^0.0.3"
+    "react-snowstorm": "^0.0.3",
+    "tailwind-merge": "^2.6.0",
+    "tailwindcss-animate": "^1.0.7"
   },
   "devDependencies": {
     "postcss": "^8",
