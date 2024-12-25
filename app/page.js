@@ -7,7 +7,6 @@ export default function Home() {
   return (
     <div className="flex flex-col min-h-screen">
       <Snowfall />
-      <ChristmasBalls/>
       <main className="flex-grow flex justify-center items-center">
         <Maincard />
         {/* <Socials/> */}
