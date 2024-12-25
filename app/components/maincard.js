@@ -28,7 +28,7 @@ const Maincard = () => {
 
     return (
         <div 
-            className={`relative px-4 py-8 pb-20 md:px-10 md:pb-40 bg-[#FCF7F4] w-full md:w-11/12 h-auto md:h-[680px] flex flex-col items-center rounded-xl gap-8 overflow-hidden`}
+            className={`relative px-4 py-8 pb-20 md:px-10 md:pb-40 bg-[#FCF7F4] w-[90%] md:w-11/12 h-auto md:h-[680px] flex flex-col items-center rounded-xl gap-8 overflow-hidden`}
             onMouseMove={handleMouseMove}
             onMouseLeave={handleMouseLeave}
             style={style}
@@ -36,10 +36,10 @@ const Maincard = () => {
             <Header />
             
             <div className='w-full flex flex-col justify-center items-center leading-none'>
-                <h1 className="uppercase leading-none jolly-lodger-regular md:text-[135px] tracking-wider">
+                <h1 className="uppercase leading-none jolly-lodger-regular text-5xl md:text-[135px] tracking-wider">
                     merry christmas
                 </h1>
-                <p className="text-[#121212] jolly-lodger-regular text-xl md:text-6xl leading-none">To you all❤</p>
+                <p className="text-[#121212] jolly-lodger-regular text-3xl md:text-6xl leading-none">To you all❤</p>
 
                 <div className='pt-4'>
                     <PlayButton />
@@ -54,7 +54,7 @@ const Maincard = () => {
                         alt="Santa" 
                         width={200} 
                         height={100} 
-                        className=""
+                        className="hidden md:block"
                     />
                 </div>
             </div>
