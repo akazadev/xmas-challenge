@@ -9,9 +9,13 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "next": "15.1.2",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "next": "15.1.2"
+    "react-icons": "^5.4.0",
+    "react-snow-effect": "^1.2.0",
+    "react-snowfall": "^2.2.0",
+    "react-snowstorm": "^0.0.3"
   },
   "devDependencies": {
     "postcss": "^8",
