@@ -1,5 +1,5 @@
 import React from 'react';
-import './ChristmasBalls.css';
+import '../christmasballs.css';
 
 const ChristmasBalls = () => {
   const balls = Array.from({ length: 50});

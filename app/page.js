@@ -9,7 +9,6 @@ export default function Home() {
       <Snowfall />
       <main className="flex-grow flex justify-center items-center">
         <Maincard />
-        {/* <Socials/> */}
       </main>
     </div>
   );
