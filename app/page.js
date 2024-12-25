@@ -1,4 +1,3 @@
-import ChristmasBalls from "./components/christmasballs";
 import Maincard from "./components/maincard";
 import Snowfall from "./components/snowfall";
 import Socials from "./components/socials";
