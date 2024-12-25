@@ -36,8 +36,8 @@ const Maincard = () => {
             <Header />
             
             <div className='w-full flex flex-col justify-center items-center leading-none'>
-                <h1 className="uppercase leading-none font-anton text-4xl md:text-[135px] tracking-wider">
-                    {'{'}merry christmas{'}'}
+                <h1 className="uppercase leading-none jolly-lodger-regular md:text-[135px] tracking-wider">
+                    merry christmas
                 </h1>
                 <p className="text-[#121212] jolly-lodger-regular text-xl md:text-6xl leading-none">To you all❤</p>
 
